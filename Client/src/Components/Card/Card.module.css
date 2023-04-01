@@ -1,0 +1,28 @@
+.card {
+  background: rgba(236, 236, 236, 0.808);
+  width: fit-content;
+  padding: 1em;    
+  border-radius: 1.5em;
+  box-shadow: 2px 4px 12px 1px rgba(144,240,103,0.49);
+-webkit-box-shadow: 2px 4px 12px 1px rgba(144,240,103,0.49);
+-moz-box-shadow: 2px 4px 12px 1px rgba(144,240,103,0.49);
+  display: flex;
+  flex-direction: column;
+}
+
+.closeButton{
+    background-color: rgba(170, 25, 25, 0.822);
+    color: white;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 4.5em;
+    position: relative;
+    left: 90%;
+    bottom: 6em;
+    cursor: pointer;
+}
+.closeButton:hover{
+  background-color: rgb(255, 0, 0);
+  
+}
+
